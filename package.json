@@ -1,0 +1,73 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "Melaozhu's JavaScript 30 Chanlleges.",
+  "main": "index.js",
+  "repository": "https://github.com/laozhu/javascript30",
+  "author": "Ritchie Zhu <laozhu.me@gmail.com>",
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+      "airbnb-base",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "no-console": 0,
+      "no-unused-expressions": [
+        "error",
+        {
+          "allowShortCircuit": true,
+          "allowTernary": true
+        }
+      ]
+    },
+    "plugins": [
+      "import"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard",
+      "stylelint-config-rational-order"
+    ],
+    "plugins": [
+      "stylelint-order"
+    ],
+    "rules": {
+      "order/order": [
+        "dollar-variables",
+        "custom-properties",
+        "declarations",
+        "rules",
+        "at-rules"
+      ]
+    }
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.5.0",
+    "stylelint-config-rational-order": "^0.0.2",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0"
+  }
+}
