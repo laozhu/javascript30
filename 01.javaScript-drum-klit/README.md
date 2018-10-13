@@ -1,6 +1,6 @@
 ## JavaScript Drum Kit
 
-> Melaozhu's version
+> Completed at 2018/10/14 by @laozhu
 
 ### Features
 
