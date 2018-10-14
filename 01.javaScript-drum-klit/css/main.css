@@ -24,7 +24,6 @@ body {
 
 .key {
   display: flex;
-  flex: 0 0 6rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;

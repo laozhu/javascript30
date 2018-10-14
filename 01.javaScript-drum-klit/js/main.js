@@ -19,9 +19,9 @@ const playSound = ({ sound, success }) => {
   };
 
   if (playPromise !== undefined) {
-    playingSound.currentTime = 0; // Reset audio.
     playPromise
       .then(() => {
+        playingSound.currentTime = 0; // Reset audio.
         setTimeout(stopSound, 500); // When 500ms later stop sound.
         sound.addEventListener('ended', stopSound); // When audio ended stop sound.
       })
@@ -50,7 +50,7 @@ document.addEventListener('keydown', keyDownEvent => {
 // When key clicked play sound.
 const keys = document.querySelectorAll('.key');
 keys &&
-  Array.from(keys).map(key => {
+  Array.from(keys).forEach(key => {
     key.addEventListener('click', () => {
       const code = key.dataset.key;
       const selector = `audio[data-key='${code}']`;
@@ -62,5 +62,4 @@ keys &&
         success: () => key.classList.remove('playing'),
       });
     });
-    return key;
   });
