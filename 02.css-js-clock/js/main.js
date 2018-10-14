@@ -21,5 +21,5 @@ const setTime = () => {
   secondHand.style.transform = `rotate(${second * 6}deg)`;
 };
 
-setTime(); // Set time once before setInterval
+setTime();
 setInterval(setTime, 1000);
