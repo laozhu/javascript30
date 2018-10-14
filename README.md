@@ -4,10 +4,10 @@
 
 ### Table of Contents
 
-- [x] [JavaScript Drum Kit](#javaScript-drum-kit)
-- [x] [CSS + JS Clock](#css-js-clock)
+- [x] [01 - JavaScript Drum Kit](#01-javascript-drum-kit)
+- [x] [02 - CSS + JS Clock](#02-css--js-clock)
 
-### JavaScript Drum Kit
+### 01 - JavaScript Drum Kit
 
 > Completed at 2018/10/14 by @laozhu
 
@@ -25,7 +25,7 @@
 
 <https://developers.google.com/web/updates/2017/06/play-request-was-interrupted>
 
-### CSS + JS Clock
+### 02 - CSS + JS Clock
 
 > Completed at 2018/10/15 by @laozhu
 
