@@ -49,6 +49,7 @@
       "stylelint-order"
     ],
     "rules": {
+      "value-list-comma-newline-after": null,
       "order/order": [
         "dollar-variables",
         "custom-properties",
