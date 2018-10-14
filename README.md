@@ -4,8 +4,8 @@
 
 ### Table of Contents
 
-- [x] [01 - JavaScript Drum Kit](#01-javascript-drum-kit)
-- [x] [02 - CSS + JS Clock](#02-css--js-clock)
+- [x] [01 - JavaScript Drum Kit](#01---javascript-drum-kit)
+- [x] [02 - CSS + JS Clock](#02---css--js-clock)
 
 ### 01 - JavaScript Drum Kit
 
