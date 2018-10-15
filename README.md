@@ -6,7 +6,7 @@
 
 - [x] [01 - JavaScript Drum Kit](#01---javascript-drum-kit)
 - [x] [02 - CSS + JS Clock](#02---css--js-clock)
-- [x] [03 - CSS Variables](#02---css-variables)
+- [x] [03 - CSS Variables](#03---css-variables)
 
 ### 01 - JavaScript Drum Kit
 
