@@ -10,7 +10,7 @@ const setTime = () => {
 
   const hour = now.getHours();
   const hourHand = document.querySelector('.hour-hand');
-  hourHand.style.transform = `rotate(${hour * 15}deg)`;
+  hourHand.style.transform = `rotate(${hour * 30}deg)`;
 
   const minute = now.getMinutes();
   const minuteHand = document.querySelector('.min-hand');
